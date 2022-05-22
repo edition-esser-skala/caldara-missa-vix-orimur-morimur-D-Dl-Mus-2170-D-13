@@ -1,0 +1,19 @@
+composer:
+  last: Caldara
+  first: Antonio
+title: Missa Vix orimur morimur
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno, timp, 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2170-D-13
+    date: 1727–1729
+    rism: 212006721
+    url: https://digital.slub-dresden.de/id426603265
+    license: public domain
+    principal: true
+imslp:
+parts:
+  ottoni: Clarino I, II in D\\Timpani in D–A
