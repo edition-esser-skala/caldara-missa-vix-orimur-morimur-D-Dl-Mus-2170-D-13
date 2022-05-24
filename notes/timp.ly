@@ -16,3 +16,29 @@ KyrieTimpani = {
     R\fermata \markKyrieDaCapo \bar "||" %33 finis
   }
 }
+
+GloriaTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoGloria
+    R2.*43 %43
+    \time 4/4 \tempoJesu
+      \revert Staff.TimeSignature.style
+      R1 \noBreak
+    R1\fermata \bar "||" %45
+    \time 3/4 \tempoCumSancto
+      \override Staff.TimeSignature.style = #'single-digit
+      r4 c\fE g \noBreak
+    c8 c16 c c8 c c c
+    c4 r g
+    \tempoAmen c r r
+    g r r
+    c8 c16 c c8 c c c
+    c4 r r
+    c r r
+    \time 4/4 \tempoAmenB
+      \revert Staff.TimeSignature.style
+      c r c r
+    c r16 c c c c2\fermata \bar "|." %55 finis
+  }
+}

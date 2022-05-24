@@ -14,6 +14,11 @@ markKyrieDaCapo = {
 
 tempoKyrie = \tempoMarkup "[Tempo deest]"
   tempoChristeB = \tempoMarkup "Adagio"
+tempoGloria = \tempoMarkup "Allegro"
+  tempoJesu = \tempoMarkup "Adagio"
+  tempoCumSancto = \tempoMarkup "Vivace"
+  tempoAmen = \tempoMarkup "Allegro"
+  tempoAmenB = \tempoMarkup "Adagio"
 
 
 \include "notes/clno1.ly"

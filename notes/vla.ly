@@ -39,3 +39,45 @@ KyrieViola = {
     a\fermata \markKyrieDaCapo \bar "||" %33 finis
   }
 }
+
+GloriaViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/4 \tempoGloria
+    fis8\fE e d fis e e
+    d8. e16 fis4 d8 d
+    e e fis fis e4
+    e r r
+    R2.*15 %10
+    r2 cis4\fE %20
+    cis cis8 cis cis cis
+    d4 d cis8 cis
+    h h gis2
+    fis cis'4
+    h h8 h h h %25
+    h4 h8 h h a
+    a4 a r
+    d d8 d d a
+    d e d d cis4
+    d2 r4 %30
+    R2.*13 \bar "|"
+    \time 4/4 \tempoJesu
+      \revert Staff.TimeSignature.style
+      r4 d\fE h cis \noBreak
+    d2 cis\fermata \bar "||" %45
+    \time 3/4 \tempoCumSancto
+      \override Staff.TimeSignature.style = #'single-digit
+      r8 d d d cis cis \noBreak
+    d8. d16 d8 d d d16 d
+    d8 d d d cis4
+    \tempoAmen d r r
+    r8 d cis d cis h %50
+    a h a h a g
+    fis g fis g fis e
+    d4 d'8 e d c
+    \time 4/4 \tempoAmenB
+      \revert Staff.TimeSignature.style
+      h4 d8 h g g'16 a h4~
+    h4 a8 g a2\fermata \bar "|." %55 finis
+  }
+}
