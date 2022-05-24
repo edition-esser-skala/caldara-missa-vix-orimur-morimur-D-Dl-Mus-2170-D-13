@@ -11,10 +11,18 @@
     \score {
       <<
         \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \transposedName "Clarino I, II" "D" ""
-            % \transpose c d
-            \partCombine \KyrieClarinoI \KyrieClarinoII
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = \transposedName "Clarino" "D" ""
+            \new Staff {
+              \set Staff.instrumentName = "I"
+              % \transpose c d
+              \KyrieClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "II"
+              % \transpose c d
+              \KyrieClarinoII
+            }
           >>
         >>
         \new Staff {
@@ -41,7 +49,7 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \incipitSoprano
+            \incipit \markup \center-column { "Soprano" "Oboe" } "soprano" #-19 #-1.8
             \new Voice = "Soprano" { \dynamicUp \KyrieSoprano }
           }
           \new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
@@ -74,7 +82,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

@@ -6,7 +6,14 @@
 \include "ees.ly"
 
 
+markKyrieDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup { \remark "Kyrie da capo" }
+}
+
+
 tempoKyrie = \tempoMarkup "[Tempo deest]"
+  tempoChristeB = \tempoMarkup "Adagio"
 
 
 \include "notes/clno1.ly"
