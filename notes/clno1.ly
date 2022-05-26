@@ -47,3 +47,57 @@ GloriaClarinoI = {
     f4^\critnote r16 e, e e e e e e e4\fermata \bar "|." %55 finis
   }
 }
+
+CredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCredo
+    g''8.\fE g16 g8 e16 f g8 a
+    g8. g16 g8 g a a16 g
+    fis4 g fis
+    g r r
+    g8 g16 g g8 g a a %5
+    a4 g h
+    c4. c8 h4
+    c r r
+    R2.*15 \noBreak %23
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoEtIncarnatus
+      R1*6 \noBreak %30
+    R1\fermata \bar "||"
+    \time 2/1 \newSpacingSection \tempoCrucifixus
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*10 %41
+    r1 r4 g\fE g g
+    e2 a g f4 e
+    f1 g2 a
+    g r r1 %45
+    R\breve
+    r1 r4 g g g
+    e2 a g f4 g
+    a1 g %49
+    R\breve*15 %64
+    g2 r4 g g2 r4 g %65
+    h2 c1 h2
+    c1 r
+    R\breve*18 %85
+    r1 r2 g~\fE
+    g4 f e d e fis g2~
+    g fis g1
+    R\breve*5 %93
+    r1 r2 c~
+    c4 h a g f e d c %95
+    d2 e a g
+    g1 r2 g
+    a g a g
+    R\breve
+    r1 r2 g~ %100
+    g4 f e d c2 c'~
+    c4 h a g f2 g
+    d r c'2. b4
+    a g f2 g c~
+    c h c g %105
+    \tempoCredoFinis a1. a2
+    g\breve\fermata \bar "|." %107 finis
+  }
+}

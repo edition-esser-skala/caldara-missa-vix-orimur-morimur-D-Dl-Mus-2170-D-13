@@ -170,3 +170,220 @@ GloriaAltoLyrics = \lyricmode {
 
   _ men. %55 finis
 }
+
+CredoAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \autoBeamOff \tempoCredo
+    \mvTr a'4\fE^\tuttiE a8 fis a h
+    a4 a8 a h h
+    gis4 a8 a gis4
+    a r a8 a
+    a8. a16 a4 g8. g16 %5
+    g4 e4. e8
+    fis fis e4. e8
+    fis2 r4
+    R2.*3 %11
+    \mvTr fis4.\pE^\solo g8 fis e
+    d h h'4. a!8
+    g([ a)] g([ fis)] e([ d)]
+    cis4. cis8 cis4 %15
+    r r e~
+    e8 cis fis e d cis
+    d4 d fis8 eis
+    fis fis16 gis? eis4. eis8
+    fis2 r4 %20
+    r r e8([ fis)]
+    gis?([ a gis? fis e dis?)]
+    cis a' fis2 \noBreak
+    \mvTrr e2.\fermata^\critnote \bar "||"
+    \time 4/4 \tempoEtIncarnatus
+      r8 \mvTr gis\fE^\tuttiE gis gis gis4. gis8 \noBreak %25
+    fis4 fis fis fis8 fis
+    e2 eis4 eis8 eis
+    fis4 gis fis4. fis8
+    eis4 eis fis fis
+    fis2. fis4 \noBreak %30
+    fis1\fermata \bar "||"
+    \time 2/1 \newSpacingSection \tempoCrucifixus
+      \set Staff.timeSignatureFraction = 2/2
+      r1 d2 fis \noBreak
+    e a g4 fis g e
+    fis2.( e8[ d] e1)
+    d r %35
+    R\breve
+    r1 r2 g~
+    g fis g2. g4
+    a2( d,1) d2
+    d4 g g g fis2 h %40
+    a g4 fis g1
+    fis2 gis4 gis a2 e
+    fis fis4 g a1
+    g r
+    r4 a a a fis2 h %45
+    a g4 fis g1~
+    g2 fis e e4 e
+    fis2.( g4) a1
+    r r4 fis fis fis
+    e2 a g fis4 e %50
+    fis1 e2 r
+    r1 r2 e~
+    e dis e4( fis) g a
+    h2 h, cis!4( d) e fis
+    d2 cis4 h ais2 h~ %55
+    h ais h1
+    R\breve
+    r1 r2 fis'~
+    fis e d!1
+    cis h2( cis) %60
+    d1 r2 fis~
+    fis e1 d!2
+    \once \tieDashed fis1~ fis2 e~
+    e dis e r
+    r e4 e a2 g4 fis %65
+    e2 fis e1
+    fis r
+    r r2 d~
+    d cis d h
+    e fis e e4 e %70
+    e1 e
+    r2 e4 e fis2 gis4 gis
+    a2 fis e1
+    r2 e fis4 fis fis fis
+    g2( a1 g2) %75
+    g fis4 fis g2 fis
+    e e4 e d1
+    d r
+    r2 \mvTr a'1\pE^\soloE g2~
+    g4 g fis fis e2 fis %80
+    e2. e4 d1
+    R\breve*4 %85
+    r1 r2 \mvTr a'~\fE^\tuttiE
+    a4 g fis e fis gis a2~
+    a gis a1
+    a2. g4 fis e d2
+    e fis eis fis~ %90
+    fis eis fis a~
+    a4 g fis a h2 g~
+    g4 fis e g a2 a~
+    a4 g fis e d2 fis
+    g2.( fis4 e2) a, %95
+    a'1( h2 a)
+    a fis1 a2
+    g a g fis
+    r fis1 a2
+    g a g fis %100
+    r fis2. e4 d cis
+    h2 g'2. fis4 e fis8[ g]
+    a2. g4 fis e d2~
+    d e1 fis2
+    e1 fis %105
+    \tempoCredoFinis g\breve
+    fis\fermata \bar "|." %107 finis
+  }
+}
+
+CredoAltoLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po --
+  ten -- tem, fa -- cto -- rem
+  coe -- li et ter --
+  rae, vi -- si --
+  bi -- li -- um o -- mni -- %5
+  um et in --
+  vi -- si -- bi -- li --
+  um.
+
+  Et ex Pa -- tre %12
+  na -- tum an -- te
+  o -- mni -- a __
+  sae -- cu -- la, %15
+  con --
+  sub -- stan -- ti -- a -- lem
+  Pa -- tri, per quem
+  o -- mni -- a fa -- cta
+  sunt, %20
+  de --
+  scen --
+  dit de coe --
+  lis.
+  Et in -- car -- na -- tus %25
+  est de Spi -- ri -- tu
+  San -- cto ex Ma --
+  ri -- a Vir -- gi --
+  ne, et ho -- mo
+  fa -- ctus %30
+  est.
+  Cru -- ci --
+  fi -- xus e -- ti -- am pro
+  no --
+  bis, %35
+
+  pas --
+  sus et se --
+  pul -- tus
+  est. Et re -- sur -- re -- xit %40
+  ter -- ti -- a di --
+  e, re -- sur -- re -- xit
+  ter -- ti -- a di --
+  e,
+  et re -- sur -- re -- xit %45
+  ter -- ti -- a di --
+  e, ter -- ti -- a
+  di -- e,
+  et re -- sur --
+  re -- xit ter -- ti -- a %50
+  di -- e,
+  et __
+  a -- scen -- dit in
+  coe -- lum, se -- det ad
+  dex -- te -- ram Pa -- _ %55
+  _ tris.
+
+  Iu --
+  di -- ca --
+  re vi -- %60
+  vos et __
+  mor -- _
+  _ _
+  tu -- os,
+  cu -- ius re -- gni non %65
+  e -- rit fi --
+  nis.
+  Qui __
+  ex Pa -- tre
+  Fi -- li -- o -- que pro -- %70
+  ce -- dit.
+  Qui cum Pa -- tre et
+  Fi -- li -- o
+  et con -- glo -- ri -- fi --
+  ca -- %75
+  tur: qui lo -- cu -- tus
+  est per Pro -- phe --
+  tas.
+  Et a --
+  po -- sto -- li -- cam Ec -- %80
+  cle -- si -- am.
+
+  A -- %86
+  _ _ _ _ _ _
+  _ men,
+  a -- _ _ _ _
+  _ men, a -- _ %90
+  _ men, a --
+  _ _ _ men, a --
+  _ _ _ men, a --
+  _ _ _ _ men,
+  a -- men, %95
+  a --
+  men, a -- men,
+  a -- men, a -- men,
+  a -- men,
+  a -- men, a -- men, %100
+  a -- _ _ _
+  _ _ _ _ _
+  _ _ _ _ _
+  _ men,
+  a -- men, %105
+  a --
+  men. %107 finis
+}

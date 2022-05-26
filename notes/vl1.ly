@@ -97,3 +97,120 @@ GloriaViolinoI = {
     g fis8 e fis2\fermata \bar "|." %55 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoCredo
+    d8\fE d' a h fis g
+    a a, d16 cis d e d cis d e
+    d cis d e cis8 a e' e
+    a16 gis a h a gis a h a h g? a
+    fis g fis e d d e fis g a g fis %5
+    e e fis g a g a h a h g a
+    fis8 d a'4 a,
+    d16 cis d e d\pE cis d e d cis d e
+    cis h cis d cis h cis d cis h cis d
+    h a h cis h a h cis h a h cis %10
+    a4. a'8 g! fis
+    h ais h e, fis fis
+    h,4 r r
+    h'16 a! h c h a h c h8.(\trill a32 h)
+    cis16( h cis) d-! cis( h cis) d-! a8 cis %15
+    d16( cis d) e-! d( cis d) e-! d( cis d) e-!
+    cis( h cis) d-! cis( h cis) d-! cis( h cis) d-!
+    fis,( e fis) g-! fis( e fis) g-! fis8 d'
+    cis16( h cis) d-! cis( h cis) d-! cis( h cis) d-!
+    cis h cis h a8 a, h h' %20
+    e,4 r a
+    gis8 fis e dis cis h
+    a4 h4. h8 \noBreak
+    \mvTrr e2.\fermata^\critnote \bar "||"
+    \time 4/4 \tempoEtIncarnatus
+      r8 e\fE gis h cis eis gis h \noBreak %25
+    cis,4 r r2
+    r8 e, gis h eis cis eis gis
+    a,4 r r2
+    r8 gis,? cis eis? fis ais d fis
+    ais,4 h2 ais4 \noBreak %30
+    h1\fermata \bar "||"
+    \twoonetime \clef treble \time 2/1 \newSpacingSection \tempoCrucifixus
+      \set Staff.timeSignatureFraction = 2/2
+      g2 h a d \noBreak
+    c4 h c a h2 e~
+    e d1 cis!2
+    d1 r %35
+    R\breve
+    r2 d1 c2
+    r d1 c2~
+    c h a2. a4
+    h1 r8 d cis d g, d' cis d %40
+    e4 e, r2 r8 g' fis g h, g' fis g
+    a,4 a' r2 r8 e d e cis e d e
+    a4 a, r2 r8 e' d e a, d c d
+    h4 g' r2 r8 d cis d h e d e
+    cis4 a' r2 r8 a g a fis a g a %45
+    e4 a, r2 r8 g' fis g g, g' fis g
+    fis4 d r2 r8 e d e a, e' d e
+    fis4 d,-\critnote r2 r8 e' d e a, d cis d
+    h4 g, r2 r8 d'' cis d d, a' g a
+    g4 g' r2 r8 d c d g, e' d e %50
+    c4 c, r2 r8 e' d e e, e' d e
+    d4 d, r2 r8 e' d e a, e' d e
+    fis4 fis, r2 r8 g' fis g h, g' fis g
+    dis4 h' r2 r8 e, d e e, e' d e
+    fis4 fis, r2 r8 cis' h cis fis, fis' e fis %55
+    g4 e, r2 r8 fis' e fis h, d cis d
+    e4 e, r2 r8 h'' a h fis cis' h cis
+    fis,4 fis, r2 r8 e' d e fis, fis' e fis
+    h,4 h' r2 r8 fis e fis d fis e fis
+    e4 e, r2 r8 d' cis d g, e' d e %60
+    a,4 a, r2 r8 e'' d e h fis' e fis
+    h,4 h' r2 r8 fis e fis h, d cis d
+    cis4 fis, r2 r8 h' a h h, h' a h
+    e4 e, r2 r8 g fis g h, g' fis g
+    e4 a r2 r8 a g a d, a' g a %65
+    cis,4 a' r2 r8 d, cis d e, cis' h cis
+    d4 d, r2 r8 g' fis g a, g' fis g
+    fis4 d, r2 r8 cis' h cis fis, d' cis d
+    g,4 g' r2 r8 fis e fis gis, e' d e
+    a,4 a' r2 r8 e d e a, e' d e %70
+    h4 e, r2 r8 e' d e a, e' d e
+    e,4 e' r2 r8 a, g a e e' d e
+    cis4 a' r2 r8 g fis g cis, a' g a
+    h,4 g' r2 r8 a g a a, a' g a
+    g4 e, r2 r8 d' cis d d, d' cis d %75
+    a'4 a, r2 r8 d cis d fis, d' cis d
+    g4 g, r2 r8 a g a a, a' g a
+    h4 g, r2 r8 d''\p c d d, d' c d
+    g,4 g' r2 r8 g fis g h, g' fis g
+    a4 a, r2 r8 e' d e a, d cis d %80
+    d,4 d' r2 r8 fis e fis d, fis' e fis
+    d4 g r2 r8 fis e fis fis, fis' e fis
+    g4 e, r2 r8 h'' ais h d, h' ais h
+    cis,4 fis r2 r8 gis fis gis cis, fis e fis
+    fis,4 fis' r2 r8 cis h cis fis, fis' e fis %85
+    gis,4 e' r2 r8 e\f d e e, e' d e
+    a,4 a' r2 r8 d, cis d e, e' d e
+    e,4 e' r2 r8 a gis a cis, e d e
+    cis4 a r2 r8 a g a fis d' cis d
+    h4 e r2 r8 eis? dis? eis? a, a' gis a %90
+    d,4 gis r2 r8 a gis a cis, fis eis fis
+    cis4 cis' r2 r8 fis, e fis g,! g' fis g
+    h,4 e r2 r8 e d e a, e' d e
+    fis4 d, r2 r8 fis' e fis fis, fis' e fis
+    h4 d, r2 r8 g fis g a, a' g a %95
+    cis,4 a' r2 r8 e d e cis a' g a
+    fis d cis d d d cis d d, d' cis d d d cis d
+    h d cis d d d cis d g, d' cis d d d cis d
+    fis, d' cis d d d cis d d, d' cis d d d cis d
+    h d cis d d d c? d g, d' cis d d d cis d %100
+    fis, fis' e fis a, fis' e fis fis, fis' e fis d, fis' e fis
+    h, g' fis g g, g' fis g e, g' fis g cis, a' g a
+    e a g a d, a' g a a, a' g a h, h' a h
+    d, h' a h g, g' fis g e a g a fis a g a
+    cis, a' g a a, a' g a fis d cis d fis, a g a %105
+    \tempoCredoFinis h2 g g'2. g4
+    fis\breve\fermata \bar "|." %107 finis
+  }
+}

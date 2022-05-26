@@ -81,3 +81,114 @@ GloriaViola = {
     h4 a8 g a2\fermata \bar "|." %55 finis
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/4 \tempoCredo
+    d8\fE d' a h fis g
+    a a, d16 cis d e d cis d e
+    d cis d e cis8 a e' e
+    a16 gis a h a gis a h a h g? a
+    fis g fis e d d e fis g a g fis %5
+    e e fis g a g a h a h g a
+    fis8 d a'4 a,
+    d16 cis d e d\pE cis d e d cis d e
+    cis h cis d cis h cis d cis h cis d
+    h a h cis h a h cis h a h cis %10
+    a4. a'8 g! fis
+    h ais h e, fis fis
+    h,4 r r
+    h'16 a! h c h a h c h8.(\trill a32 h)
+    cis16( h cis) d-! cis( h cis) d-! a8 cis %15
+    d16( cis d) e-! d( cis d) e-! d( cis d) e-!
+    cis( h cis) d-! cis( h cis) d-! cis( h cis) d-!
+    fis,( e fis) g-! fis( e fis) g-! fis8 d'
+    cis16( h cis) d-! cis( h cis) d-! cis( h cis) d-!
+    cis h cis h a8 a, h h' %20
+    e,4 r a
+    gis8 fis e dis cis h
+    a4 h4. h8 \noBreak
+    \mvTrr e2.\fermata^\critnote \bar "||"
+    \time 4/4 \tempoEtIncarnatus
+      r8 gis\fE e gis %25
+    gis gis cis, gis'
+    a a, cis fis fis fis h, fis'
+    gis gis, h e gis gis gis eis
+    fis fis, gis cis fis, fis' d fis
+    gis cis, gis cis cis cis fis fis %30
+    fis fis, fis fis fis4. fis8 \noBreak
+    fis1\fermata \bar "||"
+    \time 2/1 \newSpacingSection \tempoCrucifixus
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*2
+    r1 r2 a
+    h4 a h g a2 d~ %35
+    d c1 h2
+    a1 r
+    a g
+    fis2( g1) fis2
+    g1 r %40
+    R\breve
+    r1 r4 a a a
+    fis d' d d cis2 fis
+    e d4 cis d2. h4
+    e1 r4 d d d %45
+    cis2 fis e d4 cis
+    d1 a4 a' a a
+    fis2 h a g4 fis
+    g1 fis
+    R\breve %50
+    r2 h,1 a2~
+    a g c1
+    h2 dis e4 fis g a
+    h2 h, cis!4 d e fis
+    d2 cis4 h ais2 h~ %55
+    h ais h1
+    cis2. dis4 e2 e
+    dis h cis dis
+    e1 r
+    r2 fis,1 e2 %60
+    d1 cis2 dis
+    e1 h'
+    fis dis'2 e
+    h2. h4 e,1
+    r2 a'4 g fis2 e4 d %65
+    a'2 d, a1
+    d2 d,1 cis2
+    d e4 e fis2 d
+    e2. e4 d2 e4 e
+    cis cis d2 d' cis4 a %70
+    e1 a
+    R\breve
+    r2 h2. h4 a a
+    g1 fis2 d
+    e fis g1 %75
+    d2 d' g, d'
+    e c d1
+    g, r
+    R\breve*7 %85
+    r1 a'2.\fE g4
+    fis e d cis h2 a
+    e1 a2 a'~
+    a4 g! fis e d d, d'2~
+    d4 cis h a gis2 fis %90
+    h cis fis,1
+    R\breve
+    r2 a'2. g4 fis e
+    d d, d'2. cis4 h a
+    g2 e'2. d4 cis h %95
+    a2 d g, a
+    d8 d' cis d d d cis d d, d' cis d d d cis d
+    h d cis d d d cis d g, d' cis d d d cis d
+    fis, d' cis d d d cis d d, d' cis d d d cis d
+    h d cis d d d c? d g, d' cis d d d cis d %100
+    fis,2 d2. cis4 h a
+    g2 e'2. d4 cis h
+    a g fis e d2 g'~
+    g4 fis e d cis2 d~
+    d cis d d~ %105
+    \tempoCredoFinis d d d2. d4
+    d\breve\fermata \bar "|." %107 finis
+  }
+}

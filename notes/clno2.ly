@@ -47,3 +47,57 @@ GloriaClarinoII = {
     c16 c, c c c4 c8 c16 c c4\fermata \bar "|." %55 finis
   }
 }
+
+CredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCredo
+    e'8.\fE e16 d8 c e d
+    d8. d16 e8 e e e
+    d4 d d
+    d r r
+    e8 e16 e e8 e f f %5
+    f4 g d
+    e d4. e8
+    e4 r r
+    R2.*15 \noBreak %23
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoEtIncarnatus
+      R1*6 \noBreak %30
+    R1\fermata \bar "||"
+    \time 2/1 \newSpacingSection \tempoCrucifixus
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*10 %41
+    r1 r4 d\fE d d
+    c2 c d r
+    r c4 d e2 d
+    d r r1 %45
+    R\breve
+    r1 r4 d d d
+    e2 c d g,
+    c2. d4 e1
+    R\breve*15 %64
+    d2 r4 d e2 r4 e %65
+    d2 e d2. d4
+    e1 r
+    R\breve*18 %85
+    r1 g2.\fE f4
+    e d c2. c4 d2
+    d d4. d8 d1
+    R\breve*4 %92
+    r1 r2 g~
+    g4 f e d c2 e
+    f2. e4 d2 g, %95
+    d' c d2. d4
+    e1 r2 e
+    c e c e
+    R\breve*2 %100
+    r2 e2. e4 e e
+    f c f2. e4 d e8 f
+    g2. f4 e d c2~
+    c d1 e2
+    d2. d4 e2. e4 %105
+    \tempoCredoFinis f1. f2
+    e\breve\fermata \bar "|." %107 finis
+  }
+}

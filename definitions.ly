@@ -11,18 +11,33 @@ markKyrieDaCapo = {
   \mark \markup { \remark "Kyrie da capo" }
 }
 
+twoonetime = {
+  \overrideTimeSignatureSettings
+    2/1
+    1/2
+    #'(2)
+    #'((end . (((1 . 8) . (4 4 4 4)))))
+}
 
-tempoKyrie = \tempoMarkup "[Tempo deest]"
+
+tempoKyrie = \tempoMarkup "[Allegro]"
   tempoChristeB = \tempoMarkup "Adagio"
 tempoGloria = \tempoMarkup "Allegro"
   tempoJesu = \tempoMarkup "Adagio"
   tempoCumSancto = \tempoMarkup "Vivace"
   tempoAmen = \tempoMarkup "Allegro"
   tempoAmenB = \tempoMarkup "Adagio"
+tempoCredo = \tempoMarkup "[Allegro]"
+  tempoEtIncarnatus = \tempoMarkup "Adagio"
+  tempoCrucifixus = \tempoMarkup "Allabreve"
+  tempoCredoFinis = \tempoMarkup "Adagio"
 
 
+\include "notes/cor1.ly"
+\include "notes/cor2.ly"
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
+\include "notes/clno3.ly"
 \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

@@ -3,7 +3,7 @@ composer:
   first: Antonio
 title: Missa Vix orimur morimur
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (coro), ob, 3 clno (D), timp (D–A), 2 vl, vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), ob, 2 cor (D), 3 clno (D), timp (D–A), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -16,4 +16,5 @@ sources:
     principal: true
 imslp:
 parts:
+  cor12: Corno I, II in D
   ottoni: Clarino I, II, III in D\\Timpani in D–A
