@@ -477,3 +477,68 @@ SanctusTenoreLyrics = \lyricmode {
   mi --
   ni. %48 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1*3
+    r2 r4 \mvTr e~\pE^\solo
+    e8 e d cis d2( %5
+    cis) h
+    r r4 e~
+    e8 a, d4. cis8 h4
+    a \mvTr cis8\fE^\tutti cis d4 d8 d
+    d d16 d d8 d d2~ \noBreak %10
+    d4 cis8[ h] cis2\fermata \bar "||"
+    \time 3/2 \tempoDona \newSpacingSection R1.*4 %15
+    \mvTr fis2\fE^\tutti e r
+    h e r
+    r \mvTr e\pE^\solo e
+    fis( e) fis
+    e1. %20
+    d
+    fis2( e1)
+    e2 \mvTr cis\fE^\tutti h
+    r d e
+    R1.*4 %28
+    r2 \mvTr fis\fE^\tutti e
+    d cis r %30
+    h a r
+    d( fis)^\critnote g
+    e1.
+    d2 d d
+    \tempoDonaFinis d1. %35
+    d\fermata \bar "|." %36 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  Mi -- %4
+  se -- re -- re no -- %5
+  bis.
+  Mi --
+  se -- re -- re no --
+  bis. A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun -- %10
+  _ di:
+
+  Pa -- cem, %16
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa -- %20
+  cem,
+  pa --
+  cem, pa -- cem,
+  pa -- cem,
+
+  do -- na %29
+  no -- bis %30
+  pa -- cem,
+  pa -- cem,
+  pa --
+  cem, do -- na
+  pa -- %35
+  cem. %36 finis
+}

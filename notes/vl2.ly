@@ -239,3 +239,27 @@ SanctusViolinoII = {
     R1.\fermata \markOsannaDaCapo \bar "||" %48 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoAgnus
+    R1*10 \noBreak %10
+    R1\fermata \bar "||"
+    \time 3/2 \tempoDona R1.*4 %15
+    d'2\fE e r
+    d cis r
+    R1.*5
+    r2 fis\fE e
+    r d cis
+    R1.*4 %28
+    r2 h\fE cis
+    d4 e fis2 r %30
+    e d r
+    d1.~
+    d2 cis1
+    d2 a a
+    \tempoDonaFinis h1. %35
+    a\fermata \bar "|." %36 finis
+  }
+}

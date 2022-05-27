@@ -217,3 +217,27 @@ SanctusViola = {
     R1.\fermata \markOsannaDaCapo \bar "||" %48 finis
   }
 }
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoAgnus
+    R1*10 \noBreak %10
+    R1\fermata \bar "||"
+    \time 3/2 \tempoDona R1.*4 %15
+    fis2\fE e r
+    h e r
+    R1.*5 %22
+    r2 cis\fE h
+    r d e
+    R1.*4 %28
+    r2 fis\fE e
+    d cis r %30
+    h a r
+    d fis g
+    e1.
+    d2 d d
+    \tempoDonaFinis d1. %35
+    d\fermata \bar "|." %36 finis
+  }
+}

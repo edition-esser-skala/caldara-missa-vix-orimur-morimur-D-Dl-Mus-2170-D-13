@@ -124,3 +124,27 @@ SanctusClarinoII = {
     R1.\fermata \markOsannaDaCapo \bar "||" %48 finis
   }
 }
+
+AgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*10 \noBreak %10
+    R1\fermata \bar "||"
+    \time 3/2 \tempoDona R1.*4 %15
+    c'2\fE d r
+    c4. c8 g2 r
+    R1.*5 %22
+    r2 g\fE d'
+    r c4. c8 g2
+    R1.*4 %28
+    r2 c\fE g
+    c,4. c8 g'2 r %30
+    d'4. d8 c2 r
+    c c c
+    g2. g8 g g4 g
+    c2 c, c
+    \tempoDonaFinis c2. c8 c c4 c %35
+    e1.\fermata \bar "|." %36 finis
+  }
+}

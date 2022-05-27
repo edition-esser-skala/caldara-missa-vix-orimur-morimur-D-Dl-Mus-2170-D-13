@@ -114,3 +114,27 @@ SanctusTimpani = {
     R1.\fermata \markOsannaDaCapo \bar "||" %48 finis
   }
 }
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    R1*10 \noBreak %10
+    R1\fermata \bar "||"
+    \time 3/2 \tempoDona R1.*4 %15
+    c2\fE g r
+    c4. c8 g2 r
+    R1.*5 %22
+    r2 g\fE r
+    r c4. c8 g2
+    R1.*4 %28
+    r2 c\fE g
+    c4. c8 g2 r %30
+    r c r
+    c c c
+    g4 g8 g g4 g8 g g4 g
+    c2 c c
+    c4 c8 c c4 c8 c c4 c
+    c1.\fermata \bar "|."
+  }
+}

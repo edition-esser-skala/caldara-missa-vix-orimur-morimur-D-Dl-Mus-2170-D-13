@@ -578,3 +578,86 @@ SanctusBassFigures = \figuremode {
   <8>2 <7 _+>1
   <[_+]>1. %48 finis
 }
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoAgnus
+    \mvTr d2\pE-\soloE fis4 d
+    h'2 a
+    a8 a g fis g2
+    gis a
+    ais h8 h, d h %5
+    e cis fis fis, h4 h'8 a!
+    gis4 e8 gis a4. gis8
+    fis2 e8 fis d e
+    a,4 \mvTr a'\fE-\tuttiE fis fis
+    g2 gis \noBreak %10
+    a1\fermata \bar "||"
+    \time 3/2 \tempoDona \newSpacingSection
+      \mvTr d,1\pE-\soloE e2 \noBreak
+    fis e d
+    g fis e
+    d1. %15
+    \mvTr d'2\fE-\tuttiE cis r
+    h a r
+    r \mvTr cis,\pE-\soloE cis
+    d cis d
+    e d e %20
+    fis e fis
+    d e e,
+    a \mvTr a'\fE-\tuttiE g!
+    r fis e
+    r \mvTr d\pE-\soloE e %25
+    fis e d
+    g fis e
+    d1.
+    r2 \mvTr d'\fE-\tuttiE cis
+    h a r %30
+    g fis r
+    h a g
+    a1.
+    d,
+    \tempoDonaFinis g, %35
+    d'\fermata \bar "|." %36 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r2 <[6]>
+  <7>4 <6> <7> <6>8 <5>
+  <6>2 <7>
+  <[\t]> <4>4 <3>
+  <6 5>2 <9>4 <6> %5
+  <6 5> <[_+]> <_+>4. <[\t]>8
+  <6>4 \bo <[_+]>8 \bc <[5!]> <9>4 <8>
+  <7> <6> <7 _+>8 <5> <6 5> <_+>
+  r2 <6>
+  r <6 5> %10
+  <9 4>4 <8 3>8 <7+ 2> <8 3>2
+  r1 \bo <[6]>2
+  <6> q1
+  r2 q \bc <[6]>
+  r1. %15
+  <6>2 q1
+  <6\\>2 \bo <[5]>1
+  r2 \bc <[6]>1
+  <6 5>1 \bassFigureExtendersOn q2
+  <5\! 4>1 <5 4>2 %20
+  \bo <[4\! 3]>1 \bc <[4 3]>2 \bassFigureExtendersOff
+  <6 5> <4> <_+>
+  r <6> q
+  r q q
+  r1 \bo <[6]>2 %25
+  <6> q1
+  r2 q \bc <[6]>
+  r1.
+  r2 <6> q
+  q q1 %30
+  q2 q1
+  q2 \bo <[6 4]> \bc <[5 \l]>
+  <4> <3>1
+  r1.
+  r %35
+  r %36 finis
+}

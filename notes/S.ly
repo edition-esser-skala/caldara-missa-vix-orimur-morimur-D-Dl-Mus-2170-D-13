@@ -472,9 +472,67 @@ SanctusSopranoLyrics = \lyricmode {
   ni. %48 finis
 }
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1*3
+    r4 \mvTr d'4.\pE^\solo d8 cis h
+    cis2. \once \tieDashed h4~ %5
+    h ais h2
+    r4 \once \tieDashed h~ h8 e, a4~
+    a8[ cis] h([ a)] gis( a4 gis8)
+    a4 \mvTr a8\fE^\tutti a d4 d8 d
+    h h16 h h8 h h2~ \noBreak %10
+    h4 a8[ gis] a2\fermata \bar "||"
+    \time 3/2 \tempoDona \newSpacingSection R1.*4 %15
+    \mvTr d2\fE^\tutti e r
+    d cis r
+    R1.
+    \mvTr h1\pE^\solo h2
+    h1 h2 %20
+    h1.~
+    h
+    a2 \mvTr fis'\fE^\tutti e
+    r d cis
+    R1.*4 %28
+    r2 \mvTr h\fE^\tutti cis
+    d4( e) fis2 r %30
+    e d r
+    d1.~
+    d2 cis1
+    d2 a a
+    \tempoDonaFinis h1. %35
+    a\fermata \bar "|." %36 finis
+  }
+}
+
+AgnusSopranoLyrics = \lyricmode {
+  Mi -- se -- re -- re %4
+  no -- _ %5
+  _ bis.
+  Mi -- se -- re --
+  re no --
+  bis. A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun -- %10
+  _ di:
+
+  Pa -- cem, %16
+  pa -- cem,
+
+  do -- na
+  no -- bis %20
+  pa --
+
+  cem, pa -- cem,
+  pa -- cem,
+
+  do -- na %29
+  no -- bis %30
+  pa -- cem,
+  pa --
+  _
+  cem, pa -- cem,
+  pa -- %35
+  cem. %36 finis
+}

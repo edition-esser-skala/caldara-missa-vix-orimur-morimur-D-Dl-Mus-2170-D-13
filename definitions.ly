@@ -39,6 +39,9 @@ tempoCredo = \tempoMarkup "[Allegro]"
 tempoSanctus = \tempoMarkup "[Andante]"
   tempoOsanna = \tempoMarkup "[Allegro]"
   tempoBenedictus = \tempoMarkup "[Largo]"
+tempoAgnus = \tempoMarkup "[Adagio]"
+  tempoDona = \tempoMarkup "[Allegro]"
+  tempoDonaFinis = \tempoMarkup "[Adagio]"
 
 
 \include "notes/cor1.ly"

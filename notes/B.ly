@@ -449,3 +449,79 @@ SanctusBassoLyrics = \lyricmode {
   _ _ sis, in ex --
   cel -- sis. %37 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoAgnus
+    r2 \mvTr fis4\pE^\solo d
+    h'2( a)
+    a8 a g([ fis)] g g g g
+    gis2 a
+    R1 %5
+    r2 r4 h8 a!
+    gis4 e8 gis a a16 a a8 gis
+    fis4 fis r2
+    r4 \mvTr a8\fE^\tutti a fis4 fis8 fis
+    g g16 g g8 g gis2 \noBreak %10
+    a1\fermata \bar "||"
+    \time 3/2 \tempoDona \newSpacingSection R1.*4 %15
+    \mvTr d2\fE^\tutti cis r
+    h a r
+    r \mvTr cis,\pE^\solo cis
+    d( cis) d
+    e( d) e %20
+    fis( e) fis
+    d( e1)
+    a,2 \mvTr a'\fE^\tutti g!
+    r fis e
+    r \mvTr d\pE^\solo e %25
+    fis( e) d
+    g2. a4 h cis
+    d2 d, r
+    r \mvTr d'\fE^\tutti cis
+    h a r %30
+    g fis r
+    h( a) g
+    a1.
+    d,2 d d
+    \tempoDonaFinis g,1. %35
+    d'\fermata \bar "|." %36 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus
+  De --
+  i, qui tol -- lis pec -- ca -- ta
+  mun -- di:
+  %5
+  A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta
+  mun -- di:
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun -- %10
+  di:
+
+  Pa -- cem, %16
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa -- cem, %20
+  no -- bis
+  pa --
+  cem, pa -- cem,
+  pa -- cem,
+  do -- na %25
+  no -- bis
+  pa -- _ _ _
+  _ cem,
+  do -- na
+  no -- bis %30
+  pa -- cem,
+  pa -- cem,
+  pa --
+  cem, no -- bis
+  pa -- %35
+  cem. %36 finis
+}
