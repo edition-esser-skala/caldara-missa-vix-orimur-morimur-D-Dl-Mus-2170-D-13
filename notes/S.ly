@@ -19,7 +19,7 @@ KyrieSoprano = {
     a8 a d2( cis4)
     d a a4. a8 \noBreak
     a1\fermata \bar "||" %15
-    \time 3/3 \newSpacingSection R1.*4
+    \time 3/2 \newSpacingSection R1.*4
     d2 fis4 e d cis %20
     d h e d cis h
     cis1 d2

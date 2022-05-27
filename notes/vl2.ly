@@ -19,7 +19,7 @@ KyrieViolinoII = {
     e4 fis e2
     d4 fis e2 \noBreak
     fis1\fermata \bar "||" %15
-    \time 3/3 \newSpacingSection R1.*6 %21
+    \time 3/2 \newSpacingSection R1.*6 %21
     a2 h4 a g fis
     g e a g fis e
     fis1 a2
@@ -131,7 +131,7 @@ CredoViolinoII = {
     eis,4 r r2
     r8 fis, d d cis4. cis8 \noBreak %30
     h1\fermata \bar "||"
-    \time 2/1 \newSpacingSection \tempoCrucifixus
+    \twoonetime \time 2/1 \newSpacingSection \tempoCrucifixus
       \set Staff.timeSignatureFraction = 2/2
       r1 d2 fis \noBreak
     e a g4 fis g e
@@ -244,10 +244,12 @@ AgnusViolinoII = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoAgnus
-    R1*10 \noBreak %10
-    R1\fermata \bar "||"
+    R1*8 %8
+    r4 a'8\fE a d4 d8 d
+    h h16 h h8 h h2~ \noBreak %10
+    h4 a8 gis a2\fermata \bar "||"
     \time 3/2 \tempoDona R1.*4 %15
-    d'2\fE e r
+    d2\fE e r
     d cis r
     R1.*5
     r2 fis\fE e

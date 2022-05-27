@@ -19,7 +19,7 @@ KyrieAlto = {
     e4 fis e2
     d4 fis e2 \noBreak
     fis1\fermata \bar "||" %15
-    \time 3/3 \newSpacingSection R1.*6 %21
+    \time 3/2 \newSpacingSection R1.*6 %21
     a2 h4 a g( fis)
     g e a( g fis e)
     fis1 a2

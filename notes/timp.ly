@@ -119,8 +119,10 @@ AgnusTimpani = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoAgnus
-    R1*10 \noBreak %10
-    R1\fermata \bar "||"
+    R1*8 %8
+    r4 g\fE c8 c16 c c8 c
+    c4. c8 c c16 c c8 c \noBreak %10
+    g g16 g g8 g g2\fermata \bar "||"
     \time 3/2 \tempoDona R1.*4 %15
     c2\fE g r
     c4. c8 g2 r

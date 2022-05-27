@@ -119,7 +119,7 @@ CredoViola = {
     gis cis, gis cis cis cis fis fis %30
     fis fis, fis fis fis4. fis8 \noBreak
     fis1\fermata \bar "||"
-    \time 2/1 \newSpacingSection \tempoCrucifixus
+    \twoonetime \time 2/1 \newSpacingSection \tempoCrucifixus
       \set Staff.timeSignatureFraction = 2/2
       R\breve*2
     r1 r2 a
@@ -222,8 +222,10 @@ AgnusViola = {
   \relative c' {
     \clef alto
     \key d \major \time 4/4 \tempoAgnus
-    R1*10 \noBreak %10
-    R1\fermata \bar "||"
+    R1*8 %8
+    r4 cis8\fE cis d4 d8 d
+    d d16 d d8 d d2~ \noBreak %10
+    d4 cis8 h cis2\fermata \bar "||"
     \time 3/2 \tempoDona R1.*4 %15
     fis2\fE e r
     h e r

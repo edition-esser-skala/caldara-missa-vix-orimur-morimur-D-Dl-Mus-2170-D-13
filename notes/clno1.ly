@@ -129,8 +129,10 @@ AgnusClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoAgnus
-    R1*10 \noBreak %10
-    R1\fermata \bar "||"
+    R1*8 %8
+    r4 d'\fE c8 c16 c c8 c
+    c4. c8 c c16 c c8 c \noBreak %10
+    g g16 g g8 g g2\fermata \bar "||"
     \time 3/2 \tempoDona R1.*4 %15
     e'2\fE d r
     c4. c8 d2 r

@@ -19,7 +19,7 @@ KyrieViolinoI = {
     a8 a d2 cis4
     d a a4. a8 \noBreak
     a1\fermata \bar "||" %15
-    \time 3/3 \newSpacingSection R1.*4
+    \time 3/2 \newSpacingSection R1.*4
     d2 fis4 e d cis %20
     d h e d cis h
     cis1 d2
@@ -246,10 +246,12 @@ AgnusViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoAgnus
-    R1*10 \noBreak %10
-    R1\fermata \bar "||"
+    R1*8 %8
+    r4 e'8\fE e a4 a8 a
+    g g16 g g8 g e2 \noBreak %10
+    e1\fermata \bar "||"
     \time 3/2 \tempoDona R1.*4 %15
-    h''2\fE a r
+    h'2\fE a r
     gis a r
     R1.*5 %22
     r2 a\fE h
