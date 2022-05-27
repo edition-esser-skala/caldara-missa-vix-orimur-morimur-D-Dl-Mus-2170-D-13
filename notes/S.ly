@@ -381,24 +381,97 @@ CredoSopranoLyrics = \lyricmode {
   men. %107 finis
 }
 
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \autoBeamOff \tempoSanctus
+    R2.*8 %8
+    \mvTr cis'4\pE^\solo e d
+    cis8([ d)] cis([ h)] a([ g!)] %10
+    fis([ e)] d4 d'~
+    d e8([ d)] cis([ h)]
+    ais?4 fis'8([ e)] d([ cis)]
+    d4( cis2)
+    h r4 %15
+    cis8.[ d16 cis8 h a gis]
+    a4 fis'8[ e d cis]
+    h4 cis d
+    a( gis2) \noBreak
+    fis2.\fermata \bar "||" %20
+    \time 4/4 \tempoOsanna R1 \noBreak
+    r2 \mvTr a\fE^\tutti
+    a8 g a fis g fis g e
+    e4 d r \once \tieDashed cis'~
+    cis8 fis, h4. e,8 a4~ %25
+    a8[ h] cis4 h2
+    r4 d e8 d e cis
+    d[ cis d h] e[ d] cis4
+    h2 a
+    r4 fis'4. h,8 e4~ %30
+    e8[ a,] d2 cis4~
+    cis8[ fis,] h4. e,8[ a g]
+    fis[ e] d4 r2
+    R1
+    d'2 e8 d e cis %35
+    d cis d h cis cis d4~ \noBreak
+    d8 d cis4 d2\fermata \bar "||"
+    \time 3/2 \tempoBenedictus \mvTr h2(\pE^\soloE cis) ais \noBreak
+    h fis h
+    cis4. h8 cis4. e8 d4. cis8 %40
+    d4. cis8 d2 d
+    e4. d8 e4. g8 fis4. e8
+    d2 cis h
+    h e4( d) cis( h)
+    ais?2. h4 cis2~ %45
+    cis d4 cis h ais
+    h1 h2
+    ais1.\fermata \markOsannaDaCapo \bar "||" %48 finis
+  }
+}
 
-%
-%
-% ## Sanctus
-%
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
-%
-%
-% ## Benedictus
-%
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
-%
-%
-% ## Agnus Dei
-%
+SanctusSopranoLyrics = \lyricmode {
+  Ple -- ni sunt %9
+  coe -- li __ et __ %10
+  ter -- ra glo --
+  ri -- a, __
+  glo -- ri -- a __
+  tu --
+  a, %15
+  glo --
+  _ _
+  _ ri -- a
+  tu --
+  a. %20
+
+  O --
+  san -- na in ex -- cel -- sis, in ex --
+  cel -- sis, in __
+  ex -- cel -- _ _ %25
+  _ sis,
+  o -- san -- na in ex --
+  cel -- _ _
+  _ sis,
+  in ex -- cel -- %30
+  _ _
+  _ _
+  _ sis,
+
+  o -- san -- na in ex -- %35
+  cel -- sis, in ex -- cel -- sis, in __
+  ex -- cel -- sis.
+  Be -- ne --
+  di -- ctus, qui
+  ve -- _ _ _ _ _ %40
+  _ _ nit, qui
+  ve -- _ _ _ _ _
+  _ nit in
+  no -- mi -- ne __
+  Do -- _ _ %45
+  _ _ _ _
+  _ mi --
+  ni. %48 finis
+}
+
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:

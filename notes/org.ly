@@ -465,3 +465,116 @@ CredoBassFigures = \figuremode {
   r\breve
   r %107 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 3/4 \tempoSanctus
+    \mvTr d2.~\pE-\soloE
+    d4 cis2
+    d4 h gis
+    a2.
+    d4 e fis %5
+    e2.
+    a2 fis4
+    d e e,
+    a2 h4
+    a2. %10
+    d
+    e
+    fis
+    h4 e, fis
+    h8. cis16 h8 a! gis fis %15
+    eis2.
+    fis
+    d4 cis h
+    cis2. \noBreak
+    fis,\fermata \bar "||" %20
+    \clef treble \time 4/4 \tempoOsanna
+    << {
+      R1 \noBreak
+      r2 a''
+      a8 g a fis g fis g e
+    } \\ {
+      \mvTr d2\fE-\tuttiE e8 d e cis
+      d cis d h cis h a4
+      r fis'4. h,8 e4
+    } >>
+    \clef bass d,2 e8 d e cis
+    d cis d h cis h a4 %25
+    \clef "treble_8" a'8 g \clef bass fis4. h,8 e4~
+    e8 a, d2 cis4
+    \clef "treble_8" cis'8[ fis, h] \clef bass e, cis h cis a
+    d h e e, a4 a'
+    a8 g! a fis g fis g e %30
+    fis e d4 \clef "treble_8" e'8 d e cis
+    d cis d h cis h a4
+    d fis4. h,8 e4
+    \clef bass d,2 e8 d e cis
+    d cis d h cis h cis a %35
+    h a h g a4 d \noBreak
+    a2 d\fermata \bar "||"
+    \time 3/2 \tempoBenedictus \mvTr h2\pE-\soloE e fis \noBreak
+    h,1.
+    e1 fis2 %40
+    h,1 h'2~
+    h ais1
+    h1.
+    e,
+    fis %45
+    \once \tieDashed h,~
+    h2 eis1
+    fis1.\fermata \markOsannaDaCapo \bar "||" %48 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r2.
+  <2>4 <6>2
+  r2 <7>4
+  r2.
+  r4 \bo <[7 _+]> \bc <[6 \l]> %5
+  <[7] _+>2.
+  <9>2 <3>4
+  <6 5> <[_+]>2
+  r <6\\>4
+  r2. %10
+  r
+  <7>2 <6>8 <[5]>
+  <_+>2.
+  r4 <6 5> <_+>
+  r2. %15
+  <6 [_+]>
+  r
+  <6>4 <6 [4]> <6\\>
+  <6 4> <5+ _+>2
+  r2. %20
+  r1
+  r
+  r
+  <9>4 <8> <7> <6>
+  <7> <6> \bo <[7]> <5> %25
+  \bc <[6]> <3> <2>2
+  <2>4 <3> <2> <[6]>
+  <2> <[3]>8 <_+> <7>4 <6>
+  <6 5> <[_+]>2.
+  <7>4 <6> <7> <6> %30
+  <7> <[5]> <7> <6>
+  <7> <6> <7> <[5]>
+  r <6> <2>2
+  <9>4 <8> <7> <6>
+  <5> <6> <7> <6> %35
+  <7> <6> <[7]>2
+  <4>4 <3>2.
+  r2 <6> <_+>
+  r1.
+  <6>1 <_+>2 %40
+  r1.
+  <2>2 <6>1
+  r1.
+  <5>1 <6>4 <[5]>
+  <_+>1. %45
+  <9>1 <8>4 <7+>
+  <8>2 <7 _+>1
+  <[_+]>1. %48 finis
+}

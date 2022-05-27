@@ -93,3 +93,24 @@ CredoTimpani = {
     c4 c8 c c4 c c1\fermata \bar "|." %107 finis
   }
 }
+
+SanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoSanctus
+    R2.*19 \noBreak %19
+    R2.\fermata \bar "||" %20
+    \time 4/4 \tempoOsanna R1*3
+    c4\fE r r g8. g16
+    c4 r r8. g16 g4 %25
+    R1*3
+    r2 g4 r
+    R1*4 %33
+    c8 c16 c c4 r g8. g16
+    c4. c8 g4 g8 g %35
+    c2 g8.[ g16 c8. c16]
+    g8 g16 g g8 g c2\fermata \bar "||"
+    \time 3/2 \tempoBenedictus R1.*10 %47
+    R1.\fermata \markOsannaDaCapo \bar "||" %48 finis
+  }
+}

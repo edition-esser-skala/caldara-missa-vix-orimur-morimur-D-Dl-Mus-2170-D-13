@@ -211,3 +211,31 @@ CredoViolinoII = {
     a\breve\fermata \bar "|." %107 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoSanctus
+    R2.*19 \noBreak %19
+    R2.\fermata \bar "||" %20
+    \time 4/4 \tempoOsanna R1 \noBreak
+    r2 a'\fE
+    a8 g a fis g fis g e
+    e4 d r \once \tieDashed cis'~
+    cis8 fis, h4. e,8 a4~ %25
+    a8 h cis4 h2
+    r4 d e8 d e cis
+    d cis d h e d cis4
+    h2 a
+    r4 fis'4. h,8 e4~ %30
+    e8 a, d2 cis4~
+    cis8 fis, h4. e,8 a g
+    fis e d4 r2
+    R1
+    d'2 e8 d e cis %35
+    d cis d h cis cis d4~ \noBreak
+    d8 d cis4 d2\fermata \bar "||"
+    \time 3/2 \tempoBenedictus R1.*10 %47
+    R1.\fermata \markOsannaDaCapo \bar "||" %48 finis
+  }
+}

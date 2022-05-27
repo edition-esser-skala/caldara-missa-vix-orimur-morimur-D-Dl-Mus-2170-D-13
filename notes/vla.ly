@@ -192,3 +192,28 @@ CredoViola = {
     d\breve\fermata \bar "|." %107 finis
   }
 }
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/4 \tempoSanctus
+    R2.*19 \noBreak %19
+    R2.\fermata \bar "||" %20
+    \time 4/4 \tempoOsanna R1*4 %24
+    r2 a\fE %25
+    a8 g a fis g fis g e
+    fis e d4 r cis'~
+    cis8 fis, h4. e,8 a4~
+    a gis a2
+    R1 %30
+    d2 e8 d e cis
+    d cis d h cis h a4
+    r fis'4. h,8 e4~
+    e8 a, d2 cis4
+    a d cis4. fis8 %35
+    h,4. e8 a, a a a \noBreak
+    a2 a\fermata \bar "||"
+    \time 3/2 \tempoBenedictus R1.*10 %47
+    R1.\fermata \markOsannaDaCapo \bar "||" %48 finis
+  }
+}

@@ -402,3 +402,78 @@ CredoTenoreLyrics = \lyricmode {
   a --
   men. %107 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 3/4 \autoBeamOff \tempoSanctus
+    R2.*3
+    \mvTr a4(\pE^\solo h) cis
+    d2.~ %5
+    d4 e8([ d)] cis([ h)]
+    cis2.
+    h4 h4. a8
+    a2 r4
+    R2.*10 \noBreak %19
+    R2.\fermata \bar "||" %20
+    \time 4/4 \tempoOsanna R1*4 %24
+    r2 \mvTr a\fE^\tutti %25
+    a8 g a fis g fis g e
+    fis([ e)] d4 r cis'~
+    cis8 fis, h4. e,8 a4~
+    a gis a2
+    R1 %30
+    d2 e8 d e cis
+    d cis d h cis([ h)] a4
+    r fis'4. h,8 e4~
+    e8[ a,] d2 cis4
+    a d cis4. fis8 %35
+    h,4. e8 a, a a a \noBreak
+    a2 a\fermata \bar "||"
+    \time 3/2 \tempoBenedictus \mvTr d2(\pE^\soloE e) cis \noBreak
+    d4.( cis8) h2 r
+    R1. %40
+    r2 r h
+    cis4. h8 cis4. e8 d4. cis8
+    h2 cis d
+    e1.~
+    e2 fis4( e) d( cis) %45
+    d1.~
+    d1 d2
+    cis1.\fermata \markOsannaDaCapo \bar "||" %48 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus %4
+  Do -- %5
+  mi -- nus
+  De --
+  us Sa -- ba --
+  oth.
+
+  O -- %25
+  san -- na in ex -- cel -- sis, in ex --
+  cel -- sis, in __
+  ex -- cel -- _ _
+  _ sis,
+  %30
+  o -- san -- na in ex --
+  cel -- sis, in ex -- cel -- sis,
+  in ex -- cel --
+  _ sis,
+  in ex -- cel -- _ %35
+  _ _ _ sis, in ex --
+  cel -- sis.
+  Be -- ne --
+  di -- ctus,
+  %40
+  qui
+  ve -- _ _ _ _ _
+  _ nit in
+  no --
+  mi -- ne __ %45
+  Do --
+  mi --
+  ni. %48 finis
+}

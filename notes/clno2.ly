@@ -101,3 +101,26 @@ CredoClarinoII = {
     e\breve\fermata \bar "|." %107 finis
   }
 }
+
+SanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoSanctus
+    R2.*19 \noBreak %19
+    R2.\fermata \bar "||" %20
+    \time 4/4 \tempoOsanna R1*3
+    c'4\fE r r g8. g16
+    c4 r r8. g16 g4 %25
+    R1
+    r2 r8. g16 g4
+    R1
+    c8 c d8. d16 g,4 r
+    R1*4 %33
+    d'4 c2 g4
+    e'2 d %35
+    c g8.[ g16 c8. c16] \noBreak
+    g8 g16 g g8 g e2\fermata \bar "||"
+    \time 3/2 \tempoBenedictus R1.*10 %47
+    R1.\fermata \markOsannaDaCapo \bar "||" %48 finis
+  }
+}

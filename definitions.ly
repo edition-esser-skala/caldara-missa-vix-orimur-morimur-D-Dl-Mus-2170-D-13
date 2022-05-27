@@ -11,6 +11,11 @@ markKyrieDaCapo = {
   \mark \markup { \remark "Kyrie da capo" }
 }
 
+markOsannaDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup { \remark "Osanna da capo" }
+}
+
 twoonetime = {
   \overrideTimeSignatureSettings
     2/1
@@ -31,6 +36,9 @@ tempoCredo = \tempoMarkup "[Allegro]"
   tempoEtIncarnatus = \tempoMarkup "Adagio"
   tempoCrucifixus = \tempoMarkup "Allabreve"
   tempoCredoFinis = \tempoMarkup "Adagio"
+tempoSanctus = \tempoMarkup "[Andante]"
+  tempoOsanna = \tempoMarkup "[Allegro]"
+  tempoBenedictus = \tempoMarkup "[Largo]"
 
 
 \include "notes/cor1.ly"
